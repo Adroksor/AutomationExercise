@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Mr",
+    "name": "James Bennett",
+    "email": "james.bennett93@example.com",
+    "password": "Pass123!",
+    "dob": {
+      "day": "12",
+      "month": "8",
+      "year": "1989"
+    },
+    "first_name": "James",
+    "last_name": "Bennett",
+    "company": "Bennett Tech",
+    "address": "42 Baker Street",
+    "country": "Canada",
+    "state": "Ontario",
+    "city": "Toronto",
+    "zipcode": "M4B 1B3",
+    "mobile": "6471234567"
+  },
+  {
+    "title": "Mrs",
+    "name": "Linda Clark",
+    "email": "linda.clark58@example.com",
+    "password": "Secure!987",
+    "dob": {
+      "day": "23",
+      "month": "3",
+      "year": "1991"
+    },
+    "first_name": "Linda",
+    "last_name": "Clark",
+    "company": "Clark & Co",
+    "address": "89 Garden Ave",
+    "country": "United States",
+    "state": "CA",
+    "city": "Los Angeles",
+    "zipcode": "90001",
+    "mobile": "3105552345"
+  },
+  {
+    "title": "Mr",
+    "name": "Ethan Miles",
+    "email": "ethan.miles77@example.com",
+    "password": "Ethan@2024",
+    "dob": {
+      "day": "4",
+      "month": "12",
+      "year": "1990"
+    },
+    "first_name": "Ethan",
+    "last_name": "Miles",
+    "company": "Miles Logistics",
+    "address": "512 Pine Drive",
+    "country": "United Kingdom",
+    "state": "London",
+    "city": "London",
+    "zipcode": "E1 6AN",
+    "mobile": "07123456789"
+  },
+  {
+    "title": "Mrs",
+    "name": "Sophia Turner",
+    "email": "sophia.turner21@example.com",
+    "password": "Sophia_321",
+    "dob": {
+      "day": "7",
+      "month": "6",
+      "year": "1985"
+    },
+    "first_name": "Sophia",
+    "last_name": "Turner",
+    "company": "Turner Design",
+    "address": "10 Ocean Lane",
+    "country": "Australia",
+    "state": "NSW",
+    "city": "Sydney",
+    "zipcode": "2000",
+    "mobile": "0412345678"
+  },
+  {
+    "title": "Mr",
+    "name": "Carlos Rivera",
+    "email": "carlos.rivera84@example.com",
+    "password": "Rivera#2024",
+    "dob": {
+      "day": "19",
+      "month": "9",
+      "year": "1984"
+    },
+    "first_name": "Carlos",
+    "last_name": "Rivera",
+    "company": "Rivera Holdings",
+    "address": "76 Sunset Blvd",
+    "country": "Mexico",
+    "state": "Jalisco",
+    "city": "Guadalajara",
+    "zipcode": "44100",
+    "mobile": "3312345678"
+  }
+]

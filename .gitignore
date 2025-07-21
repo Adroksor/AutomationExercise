@@ -1,0 +1,32 @@
+# Pytest
+.cache/
+.pytest_cache/
+htmlcov/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Screenshots & test artifacts
+screenshots/
+*.png
+
+# PyCharm and Rider
+*.sublime-workspace
+*.sublime-project
+*.iws
+*.ipr

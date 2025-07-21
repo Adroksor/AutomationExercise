@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Mr",
+    "name": "James Bennett",
+    "email": "james.bennett93@example.com",
+    "password": "Pass123!",
+    "dob": {
+      "day": "12",
+      "month": "8",
+      "year": "1989"
+    },
+    "first_name": "James",
+    "last_name": "Bennett",
+    "company": "Bennett Tech",
+    "address": "42 Baker Street",
+    "country": "Canada",
+    "state": "Ontario",
+    "city": "Toronto",
+    "zipcode": "M4B 1B3",
+    "mobile": "6471234567"
+  }
+]
