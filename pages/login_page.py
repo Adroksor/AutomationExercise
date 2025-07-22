@@ -34,7 +34,7 @@ class LoginPage:
                 EC.visibility_of_element_located(self.ERROR_MESSAGE)
             ).is_displayed()
         except:
-            return False  # Not found = good
+            return False
 
     def login(self, email, password):
         self.wait.until(

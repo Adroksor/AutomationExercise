@@ -9,13 +9,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 def driver():
     service = Service(ChromeDriverManager().install())
     options = webdriver.ChromeOptions()
-    options.add_argument("--headless=new")  # Use --headless if old version
+    # options.add_argument("--headless=new")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
     driver = webdriver.Chrome(service=service, options=options)
     driver.maximize_window()
     yield driver
-    driver.quit()  # Quits after test (but hook runs before this)
+    driver.quit()
 
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
@@ -32,7 +32,7 @@ def pytest_runtest_makereport(item, call):
             name = item.name
             try:
                 username = item.callspec.params.get("name", "unknown_user")
-                name = username.replace(" ", "_")  # Clean up name for filesystem
+                name = username.replace(" ", "_")
             except Exception:
                 pass
 
